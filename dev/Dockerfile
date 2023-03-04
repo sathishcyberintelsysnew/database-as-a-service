@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.11.2
 ENV PYTHONUNBUFFERED 1
 ENV DEBIAN_FRONTEND "noninteractive apt-get install PACKAGE"
 RUN mkdir /code
