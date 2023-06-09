@@ -30,7 +30,7 @@ astroid==1.0.0
 backstage-oauth2==0.1.8
 billiard==3.3.0.19
 bootstrap-admin==0.2.5
-boto==2.14.0
+boto==2.39.0
 celery==3.1.17
 certifi==2021.5.30
 
@@ -85,7 +85,7 @@ itsdangerous==0.23
 keystoneauth1==2.9.0
 kombu==3.0.24
 kubernetes==11.0.0
-logilab-common==0.60.0
+logilab-common==0.61.0
 mock==1.0.1
 monotonic==1.1
 moto==0.2.9
@@ -105,14 +105,14 @@ prettytable==0.7.2
 pyasn1==0.1.9
 pycparser==2.14
 pycrypto==2.6
-pylint==1.0.0
+pylint==2.7.0
 pymongo==3.9.0
 pyparsing==2.1.5
 python-dateutil==2.4.1
 python-gnupg==0.3.6
 python-keyczar==0.71c
 python-keystoneclient==2.1.2
-python-ldap==2.3.13
+python-ldap==3.4.0
 python-memcached==1.58
 python-slugify==4.0.1
 pytz==2013.7
@@ -134,3 +134,4 @@ urllib3==1.25.10
 websocket-client==0.57.0
 wrapt==1.10.8
 wsgiref==0.1.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
