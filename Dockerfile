@@ -1,4 +1,4 @@
-FROM python:3.11.2
+FROM python:3.12.0b1
 
 ADD . /code
 WORKDIR /code
